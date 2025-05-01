@@ -19,7 +19,7 @@ const Header = () => {
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/players" className="nav-link">Players</Link>
             <Link to="/compare" className="nav-link">Compare</Link>
-            <Link to="/teams" className="nav-link">Teams</Link>
+            
           </div>
           
           <div className="search-container">
@@ -67,13 +67,8 @@ const Header = () => {
             >
               Compare
             </Link>
-            <Link 
-              to="/teams" 
-              className="mobile-menu-link"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Teams
-            </Link>
+            
+            
             <div className="mobile-search-container">
               <input
                 type="text"
